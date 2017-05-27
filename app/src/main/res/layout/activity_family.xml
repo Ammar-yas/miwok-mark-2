@@ -24,11 +24,21 @@
     tools:context="com.example.android.miwok.FamilyActivity">
 
     <Button
-        android:id="@+id/play"
+        android:id="@+id/pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_below="@+id/button"
+        android:onClick="pause"
+        android:text="pause" />
+
+    <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:onClick="PlayPause"
-        android:text="play/pause" />
+        android:onClick="play"
+        android:text="play" />
 </RelativeLayout>
