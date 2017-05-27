@@ -22,7 +22,8 @@ public class Word {
     }
 
     /**
-     * Create a new word object with word or sentence and its english translation with descriptive image
+     * Create a new word object with word or sentence and its english translation with descriptive
+     * image
      *
      * @param mDefaultTranslation is the language that the user wants
      *                            to use (such as franko arabic)
